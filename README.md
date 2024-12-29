@@ -4,18 +4,18 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 
 ## Table of Contents
 
-- [🌐 Features](#features)
+- [✨ Features](#features)
 - [🔧 Hardware Requirements](#hardware-requirements)
 - [📊 Software Requirements](#software-requirements)
 - [⚙️ Installation](#installation)
-- [🛏 Usage](#usage)
-- [🔌 Driver Implementation](#driver-implementation)
+- [🛌 Usage](#usage)
+- [🔐 Driver Implementation](#driver-implementation)
 - [💼 Contributing](#contributing)
 - [🔒 License](#license)
 
 ---
 
-## 🌐 Features
+## ✨ Features
 
 - ✔️ Real-time heart rate monitoring using MAX30102 sensor.
 - ✔️ Display heart rate data on SSD1306 OLED screen.
@@ -59,7 +59,7 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 
 ---
 
-## 🛏 Usage
+## 🛌 Usage
 
 1. Connect the MAX30102 sensor and SSD1306 OLED display to the STM32 microcontroller as per the pin configuration in the code.
 2. Connect the INT pin of the MAX30102 sensor to ground (or configure it for interrupts if desired).
@@ -70,7 +70,7 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 
 ---
 
-## 🔌 Driver Implementation
+## 🔐 Driver Implementation
 
 ### STM32CubeMX Setup
 
@@ -147,15 +147,14 @@ If using interrupts, implement the following:
     }
     ```
 
+4. **GPIO Settings:**
+    - Set up an external interrupt pin in GPIO settings, using "external interrupt mode with falling edge trigger detection" and "pull-up" settings.
+    - Activate the external interrupt in NVIC settings by checking the corresponding box.
+    - Connect the INT# pin of your MAX30102 to this external interrupt pin.
+
 ---
 
-## 💼 Contributing
+### ⚠️ Caution
 
-Contributions are welcome! Fork the repository and submit a pull request with your changes.
-
----
-
-## 🔒 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+This library is **NOT intended for clinical use**. Proceed at your own risk.
 
