@@ -63,7 +63,11 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 
 ## Pin Configuration:
 
-<img src="assest/Pin_config.png" alt="Heart Rate Monitoring System" style="border: 1px solid black; width: 500px;">
+<img src="asset/Pin_config.png" alt="Heart Rate Monitoring System" style="border: 1px solid black; width: 500px;">
+
+## 🎥 Working Demo
+
+[![Watch the demo](assets/demo_thumbnail.jpg)](assets/Working_demo.mp4)
 
 
 ## 🛌 Usage
