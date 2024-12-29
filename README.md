@@ -50,7 +50,7 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/heart-rate-monitoring.git
+    git clone https://github.com/dharunm236/heart-rate-monitoring.git
     cd heart-rate-monitoring
     ```
 
