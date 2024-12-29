@@ -78,9 +78,7 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 - **USART Configuration:** Set USART1 to "Asynchronous" mode.
 - **GPIO Setup:** Configure pins for I2C and USART communication.
 
-> **Note:** Interrupts are optional. To enable, configure an external interrupt pin for the INT# pin of MAX30102.* Set up an external interrupt pin in GPIO settings, use "**external interrupt mode with falling edge trigger detection**" and "**pull-up**" settings.
-* Activate the external interrupt in NVIC settings by checking the corresponding box.
-* Connect the INT# pin of your MAX30102 to this external interrupt pin.
+> **Note:** Interrupts are optional. To enable, configure an external interrupt pin for the INT# pin of MAX30102.* Set up an external interrupt pin in GPIO settings, use "**external interrupt mode with falling edge trigger detection**" and "**pull-up**" settings.Activate the external interrupt in NVIC settings by checking the corresponding box.Connect the INT# pin of your MAX30102 to this external interrupt pin.
 
 ---
 
