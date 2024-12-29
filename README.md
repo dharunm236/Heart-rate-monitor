@@ -67,7 +67,7 @@ This project is a heart rate monitoring system using an STM32 microcontroller, M
 
 ## 🎥 Working Demo
 
-[![Watch the demo](assets/demo_thumbnail.jpg)](assets/Working_demo.mp4)
+[![Watch the demo](asset/demo_thumbnail.jpg)](asset/Working_demo.mp4)
 
 
 ## 🛌 Usage
